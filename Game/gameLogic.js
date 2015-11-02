@@ -64,8 +64,8 @@ A3D.config = {
           }
         ],
         rotationValues : {
-          left : 3,
-          right : 0
+          left : 1,
+          right : 2
         },
 
         scale : {
