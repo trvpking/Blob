@@ -11,12 +11,12 @@ A3D.config = {
     }
   },
 
-      lives: 10,
+      lives: 4,
       speed : 1,
       jumpButton : 32,
       leftButton : 65,
       rightButton : 68,
-      gravity : -0.5,
+      gravity : -0.8,
 
       actionButton: 'leftmouse',
       playerSettings : {
@@ -64,8 +64,8 @@ A3D.config = {
           }
         ],
         rotationValues : {
-          left : 1,
-          right : 2
+          left : 1.5,
+          right : -1.5
         },
 
         scale : {
@@ -91,7 +91,7 @@ A3D.config = {
         offset : {
           x : 30,
           y : 20,
-          z : -40
+          z : -60
         },
         rotation : {
           x: .3,
